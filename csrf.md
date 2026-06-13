@@ -80,7 +80,7 @@ Website strick check every parameter for csrf when method is `POST` But sometime
 
 6. Make sure that you change email every time you send.
 
-7. And check all parameter such as: action:`victim email change path`, email change, method.
+7. And check all parameter such as: action:`victim email change path`, email change,  method.
 
 There you go !!!
 
